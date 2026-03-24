@@ -1,4 +1,6 @@
 /// GameVault root application widget.
+library;
+
 ///
 /// Configures MaterialApp.router with the app theme and go_router navigation.
 import 'package:flutter/material.dart';

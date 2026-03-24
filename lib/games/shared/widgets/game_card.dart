@@ -4,7 +4,7 @@
 /// if [comingSoon] is true.
 import 'package:flutter/material.dart';
 
-import '../../core/theme/app_theme.dart';
+import '../../../core/theme/app_theme.dart';
 
 class GameCard extends StatelessWidget {
   const GameCard({

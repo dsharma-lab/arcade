@@ -46,13 +46,14 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  assets:
-    - assets/images/
-    - assets/audio/
+  # Remove or comment out until assets are added:
+  # assets:
+  #   - assets/images/
+  #   - assets/audio/
 
-  fonts:
-    - family: AppFont
-      fonts:
-        - asset: assets/fonts/Inter-Regular.ttf
-        - asset: assets/fonts/Inter-Bold.ttf
-          weight: 700
+  # fonts:
+  #   - family: AppFont
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Regular.ttf
+  #       - asset: assets/fonts/Inter-Bold.ttf
+  #         weight: 700
