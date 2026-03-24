@@ -37,7 +37,7 @@ dev_dependencies:
   flutter_lints: ^4.0.0
 
   # Code generation (Riverpod)
-  riverpod_generator: ^2.4.3
+  riverpod_generator: ^2.3.5
   build_runner: ^2.4.9
 
   # Hive codegen (if using typed boxes)
