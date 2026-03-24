@@ -55,7 +55,11 @@ adb devices
 ```bash
 cd /Users/shrutirastogi/Documents/GitProjects/lab/arcade
 
-# Get dependencies first
+# 1. Generate platform folders (if missing)
+# Run this once after cloning or if android/ios folders are not present
+flutter create --org com.dsharma_lab --project-name gamevault .
+
+# 2. Get dependencies
 flutter pub get
 
 # Run on connected Android device (hot reload enabled)

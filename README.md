@@ -36,11 +36,15 @@ flutter doctor                # fix any issues
 
 See `docs/architecture/android-deployment.md` for detailed setup.
 
-### 2. Clone & Install Dependencies
+### 2. Generate Platform Folders & Install Dependencies
+
+Run this inside the `arcade/` folder to generate the `android/` and `ios/` folders:
 
 ```bash
-git clone <repo-url>
-cd arcade
+# 1. Generate platform folders (if missing)
+flutter create --org com.dsharma_lab --project-name gamevault .
+
+# 2. Fetch dependencies
 flutter pub get
 ```
 
