@@ -1,0 +1,18 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Style
+    - prefer_const_constructors
+    - prefer_const_literals_to_create_immutables
+    - use_named_constants
+    - avoid_redundant_argument_values
+    # Safety
+    - avoid_dynamic_calls
+    - avoid_print
+    - cancel_subscriptions
+    - close_sinks
+    # Dart idioms
+    - prefer_final_locals
+    - prefer_expression_function_bodies
+    - unnecessary_lambdas
