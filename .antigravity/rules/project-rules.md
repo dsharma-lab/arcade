@@ -181,7 +181,7 @@ Position getBestMove(List<List<CellState>> board) { ... }
 
 ## 11. Adding a New Game
 
-Follow the workflow in `.agents/workflows/new-game.md`.
+Follow the workflow in `.antigravity/workflows/new-game.md`.
 Every new game must:
 1. Live in its own folder under `lib/games/<game-name>/`
 2. Have a Flame `FlameGame` subclass
@@ -190,3 +190,15 @@ Every new game must:
 5. Be added to the home screen game grid
 6. Have unit tests for game logic and AI
 7. Persist high score via `StorageService`
+## 12. Agent Roles & Skills
+
+The project uses specialized agent skills located in `.antigravity/skills/`:
+
+| Skill | Use for |
+| ----- | ------- |
+| `flutter-game-dev` | Core game loops, Flame components, Riverpod integration |
+| `qa-tester` | Writing unit, widget, and integration tests |
+| `architect` | High-level system design, ADRs, and Mermaid diagrams |
+
+### Planning Agent
+Use `.antigravity/agents/planning-agent-prompt.md` to start new sprints. The planning agent generates `docs/sprints/sprint-XX.md` based on PRDs and the backlog.
